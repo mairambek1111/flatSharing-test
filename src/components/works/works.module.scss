@@ -1,0 +1,72 @@
+.works {
+  .content {
+    .title {
+      font-size: 54px;
+      font-weight: 600;
+      line-height: 60.48px;
+      text-align: center;
+      color: #282828;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .image {
+          border-radius: 10px;
+        }
+        .pretitle {
+          margin: 5px 0 5px 0;
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 26.4px;
+        }
+
+        .text {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22px;
+          width: 290px;
+          margin: 0;
+          color: #282828;
+        }
+      }
+    }
+
+    .btnbox {
+      display: flex;
+      padding-top: 38px;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn {
+      padding: 8px 8px 8px 26px;
+      gap: 12px;
+      border-radius: 33px;
+      display: flex;
+      background: #282828;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 28.13px;
+      text-align: center;
+      color: #ffffff;
+      align-items: center;
+      cursor: pointer;
+      .wrapimg {
+        width: 48px;
+        height: 48px;
+        padding: 5px;
+        gap: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        border-radius: 30px;
+      }
+    }
+  }
+}

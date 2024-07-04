@@ -1,0 +1,155 @@
+.hero {
+  padding-top: 15px;
+  .content {
+    .info {
+      display: flex;
+      gap: 25px;
+      justify-content: space-between;
+      .infobox {
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #f5f6f6;
+        max-width: 100%;
+        height: auto;
+        border-radius: 24px;
+
+        .title {
+          font-size: 68px;
+          font-weight: 600;
+          line-height: 72.96px;
+          margin: 0;
+        }
+        .text {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22px;
+          color: #282828;
+        }
+
+        .infobtn {
+          width: 270px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 6px;
+          gap: 12px;
+          border-radius: 33px;
+          font-size: 20px;
+          background: #282828;
+          font-weight: 400;
+          color: #ffffff;
+          cursor: pointer;
+          .infoIconWrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: #ffffff;
+            width: 50px;
+            height: 50px;
+          }
+        }
+        .box {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          .pretitle {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 16.41px;
+            color: #898787;
+            padding-left: 70px;
+          }
+        }
+      }
+
+      .infoboxImage {
+        .wrap {
+          .imageinfo {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .pricebox {
+          position: absolute;
+          width: 182px;
+          height: 86px;
+          top: 96px;
+          left: 822px;
+          padding: 16px 22px 16px 22px;
+          gap: 4px;
+          border-radius: 26px;
+          opacity: 0px;
+          background: #ffffffd6;
+          .title {
+            margin: 0 0 5px 0;
+          }
+          .price {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #282828;
+          }
+        }
+
+        .live {
+          .liveinfo {
+            position: absolute;
+            top: 470px;
+            z-index: 999;
+            left: 822px;
+            width: 300px;
+            height: 70px;
+            padding: 18px;
+            gap: 18px;
+            border-radius: 26px;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .namebox {
+              .name {
+                margin: 0;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                color: #282828;
+              }
+              .text {
+                margin: 7px 0 0 0;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 10px;
+                color: #282828;
+              }
+            }
+          }
+
+          .flat {
+            position: absolute;
+            top: 470px;
+            left: 1122px;
+            padding: 20px;
+            width: 160px;
+            height: 66px;
+            gap: 20px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0px;
+            background: #282828d6;
+
+            .flattitle {
+              font-size: 15px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
