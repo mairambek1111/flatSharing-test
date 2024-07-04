@@ -42,11 +42,10 @@ function Hero() {
                   <div className={styles.namebox}>
                     <h4 className={styles.name}>Ivan</h4>
                     <p className={styles.text}>
-                      Founder Ozma.io,AI Data consultant
+                      Founder Ozma.io AI Data consultant
                     </p>
                   </div>
                 </div>
-
                 <div className={styles.flat}>
                   <h2 className={styles.flattitle}>Live at Ivan s flat</h2>
                 </div>
