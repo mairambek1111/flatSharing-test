@@ -25,8 +25,8 @@ function Cards() {
         <div className="container">
           <div className={styles.content}>
             <div className={styles.boxs}>
-              {card.slice(0, 1).map((el) => (
-                <div className={styles.box}>
+              {card.slice(0, 1).map((el, index) => (
+                <div className={styles.box} key={index}>
                   <div className={styles.boxWrap}>
                     <Image
                       src={el.image}
@@ -42,8 +42,8 @@ function Cards() {
                   </div>
                 </div>
               ))}
-              {card.slice(1).map((el) => (
-                <div className={styles.box2}>
+              {card.slice(1).map((el, index) => (
+                <div className={styles.box2} key={index}>
                   <div className={styles.boxWrap2}>
                     <Image
                       src={el.image}
