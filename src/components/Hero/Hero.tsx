@@ -32,7 +32,7 @@ function Hero() {
               </div>
               <div className={styles.pricebox}>
                 <h2 className={styles.title}>Central London</h2>
-                <div className={styles.price}>130$+/night Airbnb 60$/night</div>
+                <div className={styles.price}>130$+ night Airbnb 60$ night</div>
               </div>
               <div className={styles.live}>
                 <div className={styles.liveinfo}>
@@ -42,13 +42,13 @@ function Hero() {
                   <div className={styles.namebox}>
                     <h4 className={styles.name}>Ivan</h4>
                     <p className={styles.text}>
-                      Founder Ozma.io, AI & Data consultant
+                      Founder Ozma.io,AI Data consultant
                     </p>
                   </div>
                 </div>
 
                 <div className={styles.flat}>
-                  <h2 className={styles.flattitle}>Live at Ivan's flat</h2>
+                  <h2 className={styles.flattitle}>Live at Ivan s flat</h2>
                 </div>
               </div>
             </div>
